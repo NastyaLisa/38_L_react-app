@@ -1,9 +1,10 @@
 import React from "react";
 
-function Article() {
+const Article = () => {
+    let article = <h2>NVIDIA Accelerated AI on Azure</h2>
     return (
     <div className="article__title">
-        <h2>NVIDIA Accelerated AI on Azure</h2>
+        {article}
     </div> 
     );
   }
